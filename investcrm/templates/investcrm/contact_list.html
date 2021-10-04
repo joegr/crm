@@ -1,0 +1,15 @@
+{% load static %}
+{% block content %}
+<div class="card-deck-wrapper">
+  <div class="card-deck">
+    {% for o in object_list %}
+    <div class="card" style="max-width: 20rem;">
+      <div class="card-block">
+        <h4 class="card-title">{{o.user}}</h4
+        <p class="card-text">details</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

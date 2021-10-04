@@ -1,0 +1,15 @@
+* {
+  background-color: red;
+}
+form {
+  padding:10em;
+}
+
+div.card {
+  padding:10px;
+  box-shadow: 0 4px 8px 0;
+}
+
+div.pagination {
+  background-color: red;
+  }
